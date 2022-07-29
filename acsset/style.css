@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* .clear {
+    clear: both;
+} */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+    height: 100px;
+    position: relative;
+    background: #fff;
+}
+
+#logo img {
+    width: 300px;
+    position: absolute;
+    right: 40%;
+}
+
+#header {
+    height: 46px;
+    width: 100%;
+    background: rgb(77, 168, 55);
+}
+
+#nav {
+    text-align: center;
+}
+
+#nav li {
+    display: inline-block;
+    line-height: 46px;
+    padding: 0 12px;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#nav li:hover {
+    background: rgb(187, 234, 57);
+    cursor: pointer;
+}
+
+#home img {
+    width: 100%;
+}
+
+
+/* Nhập bảng */
+
+form .tb1 {
+    padding-top: 50px;
+    width: 500px;
+    margin: auto;
+}
+
+.tb1 .heading {
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.tb1 .btn button {
+    background-color: rgb(116, 227, 140);
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    color: red;
+    width: 95px;
+    cursor: pointer;
+}
+
+.tb1 .btn button:hover {
+    opacity: 0.5;
+}
+
+.tb1 tr td {
+    padding: 8px 0;
+}
+
+.tb1 tr td input {
+    padding: 8px;
+    width: 200px;
+}
+
+tr .nn {
+    font-weight: bold;
+}
+
+
+/* Bảng */
+
+#table {
+    padding: 20px;
+    padding-top: 50px;
+}
+
+#myTable {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#myTable .ex th {
+    border: 1px solid #000;
+    font-size: 20px;
+    padding: 6px;
+}
+
+tbody tr th {
+    font-weight: normal;
+    font-size: 18px;
+    border: 1px solid #000;
+    padding: 6px;
+}
+
+.bodytb2 tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+#container1 {
+    width: 1200px;
+    position: relative;
+}
+
+#table2 table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 500px;
+    float: left;
+    position: absolute;
+}
+
+#about {
+    width: 600px;
+    border: 1px solid #000;
+    margin: auto;
+    margin-top: 120px;
+    padding: 20px;
+    background: linear-gradient( 45deg, #41c5d0 0%, #cebebe 50%, #9aff70 100%);
+    height: 450px;
+}
+
+#about h1 {
+    padding: 30px 0;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+
+#about .img {
+    padding-left: 72px;
+    width: 275px;
+    float: left;
+}
+
+#about .subhd {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 22px;
+}
+
+#about img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#about p {
+    color: red;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.body1 {
+    background: rgba(88, 37, 123, 0.2);
+}
+
+.body2 {
+    background: rgba(147, 47, 47, 0.2);
+}

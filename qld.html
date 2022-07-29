@@ -1,0 +1,142 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Điểm</title>
+    <link rel="stylesheet" href="./acsset/style.css">
+</head>
+
+<body class="body2">
+    <!-- chung -->
+    <div id="logo">
+        <img src="./acsset/img/logopng.png" alt="">
+    </div>
+    <div id="header">
+        <ul id="nav">
+            <li><a href="./index.html">TRANG CHỦ</a></li>
+            <li><a href="./qlsv.html">QUẢN LÝ SINH VIÊN</a></li>
+            <li><a href="#" target="_self"><u style="color: #000;">QUẢN LÝ ĐIỂM</u></a></li>
+            <li><a href="./about.html">GIỚI THIÊU</a></li>
+        </ul>
+    </div>
+    <!-- ket thuc -->
+
+    <!-- Nhập bảng -->
+    <form action="qlns.html" method="get">
+        <table class="tb1">
+            <tr>
+                <td colspan="2" class="heading">Trang Quản Lý Điểm</td>
+            </tr>
+            <tr>
+                <td width="150" class="nn">Mã Sinh Viên</td>
+                <td width="277">
+                    <form name="masv" method="post" action="">
+                        <input type="text" name="masv">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td class="nn">Họ Và Tên</td>
+                <td>
+                    <form name="ten" method="post" action="">
+                        <input type="text" name="ten">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td class="nn">Môn</td>
+                <td>
+                    <form name="mon" method="post" action="">
+                        <select>
+                            <option>Lập Trình Web</option>
+                            <option>Toán Cao Cấp</option>
+                            <option>Triết</option>
+                            <option>Thể Chất</option>
+                       </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td class="nn">Điểm Chuyên Cần</td>
+                <td>
+                    <form name="cc" method="post" action="">
+                        <input type="text" name="quequan">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td class="nn">Điểm Giữa Kỳ</td>
+                <td>
+                    <form name="gk" method="post" action="">
+                        <input type="text" name="lop">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td class="nn">Điểm Cuối Kỳ</td>
+                <td>
+                    <form name="ck" method="post" action="">
+                        <input type="text" name="lop">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <form class="btn" method="post" action="">
+                        <div align="center">
+                            <button>Tính Điểm</button>
+                            <button>Thêm</button>
+                            <button>Sửa</button>
+                            <button>Xóa</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <!-- Bảng -->
+    <div id="table">
+        <table id="myTable">
+            <thead>
+                <tr class="ex">
+                    <th width="50px">Mã SV</th>
+                    <th width="250px">Họ Tên</th>
+                    <th width="250px">Môn</th>
+                    <th width="250px">Điểm Chuyên Cần</th>
+                    <th width="250">Điểm Giữa Kỳ</th>
+                    <th width="250">Điểm Cuối Kỳ</th>
+                    <th width="250">Tổng Điểm Trung Bình</th>
+                </tr>
+            </thead>
+            <!-- body -->
+            <tbody class="bodytb2">
+                <tr>
+                    <th>1</th>
+                    <th>eaut1</th>
+                    <th>Triệu Quang Sáng</th>
+                    <th>10/10/2002</th>
+                    <th>Tuyên Quang</th>
+                    <th>CNTT2</th>
+                    <th>5.0</th>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <th>eaut2</th>
+                    <th>Coóc Thành Nam</th>
+                    <th>10/08/2002</th>
+                    <th>Hải Phòng</th>
+                    <th>CNTT2</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Code html -->
+    <?html
+    ?>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Sinh Viên</title>
+    <link rel="stylesheet" href="./acsset/style.css">
+</head>
+
+<body class="body1">
+    <!-- chung -->
+    <div id="logo">
+        <img src="./acsset/img/logopng.png" alt="">
+    </div>
+    <div id="header">
+        <ul id="nav">
+            <li><a href="./index.html">TRANG CHỦ</a></li>
+            <li><a href="./qlsv.html" target="_self"><u style="color: #000;">QUẢN LÝ SINH VIÊN</u></a></li>
+            <li><a href="./qld.html">QUẢN LÝ ĐIỂM</a></li>
+            <li><a href="./about.html">GIỚI THIÊU</a></li>
+        </ul>
+    </div>
+    <!-- ket thuc -->
+
+    <!-- Nhập bảng -->
+    <form action="qlns.html" method="get">
+        <table class="tb1">
+            <tr>
+                <td colspan="2" class="heading">Hồ Sơ Sinh Viên</td>
+            </tr>
+            <tr>
+                <td width="150" class="nn">Mã Sinh Viên</td>
+                <td width="277">
+                    <form name="masv" method="post" action="">
+                        <input type="text" name="masv">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td class="nn">Họ Và Tên</td>
+                <td>
+                    <form name="ten" method="post" action="">
+                        <input type="text" name="ten">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td class="nn">Ngày Sinh </td>
+                <td>
+                    <form name="ngaysinh" method="post" action="">
+                        <input type="date" name="ngaysinh">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td class="nn">Quê Quán</td>
+                <td>
+                    <form name="quequan" method="post" action="">
+                        <input type="text" name="quequan">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td class="nn">Lớp</td>
+                <td>
+                    <form name="lop" method="post" action="">
+                        <input type="text" name="lop">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <form class="btn" method="post" action="">
+                        <div align="center">
+                            <button>Thêm</button>
+                            <button>Sửa</button>
+                            <button>Xóa</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <!-- Bảng -->
+    <div id="table">
+        <table id="myTable">
+            <thead>
+                <tr class="ex">
+                    <th width="50px">STT</th>
+                    <th width="250px">Mã Sinh Viên</th>
+                    <th width="250px">Họ Và Tên</th>
+                    <th width="250px">Ngày Sinh</th>
+                    <th width="250">Quê Quán</th>
+                    <th width="250">Lớp</th>
+                </tr>
+            </thead>
+            <!-- body -->
+            <tbody class="bodytb2">
+                <tr>
+                    <th>1</th>
+                    <th>eaut1</th>
+                    <th>Triệu Quang Sáng</th>
+                    <th>10/10/2002</th>
+                    <th>Tuyên Quang</th>
+                    <th>CNTT2</th>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <th>eaut2</th>
+                    <th>Coóc Thành Nam</th>
+                    <th>10/08/2002</th>
+                    <th>Hải Phòng</th>
+                    <th>CNTT2</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Code html -->
+    <?html
+    ?>
+</body>
+
+</html>
